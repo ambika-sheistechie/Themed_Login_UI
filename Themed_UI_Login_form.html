@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia|Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    
+    <script>
+    function design1()
+{
+    document.getElementById("div-bg").style.backgroundColor="#fdedcc";
+    document.body.style.backgroundColor="#ed5934";
+    document.getElementById("btn").style.background="#ed5934";
+    document.getElementById("div-bg").style.boxShadow = "#b84005 4px 3px 15px";
+    document.getElementById("btn").style.boxShadow = "#963403 4px 3px 15px";
+}
+
+function design2()
+{
+    document.getElementById("div-bg").style.backgroundColor="#a3ffe9";
+    document.body.style.backgroundColor="#4648d7";
+    document.getElementById("btn").style.backgroundColor="#4648d7";
+    document.getElementById("div-bg").style.boxShadow = "#23259b 4px 3px 15px";
+    document.getElementById("btn").style.boxShadow = "#23259b 4px 3px 15px";
+}
+
+function design3()
+{
+    document.getElementById("div-bg").style.backgroundColor="#b2f892";
+    document.body.style.backgroundColor="#6683f9";
+    document.getElementById("btn").style.background="#6683f9";
+    document.getElementById("div-bg").style.boxShadow = " 4px 3px 15px";
+    document.getElementById("btn").style.boxShadow = "#23259b 4px 3px 15px";
+}
+
+function design4()
+{
+    document.getElementById("div-bg").style.backgroundColor="#f6f892";
+    document.body.style.backgroundColor="#21b288";
+    document.getElementById("btn").style.background="#21b288";
+    document.getElementById("div-bg").style.boxShadow = "#198354 4px 3px 15px";
+    document.getElementById("btn").style.boxShadow = "#198354 4px 3px 15px";
+}
+
+    </script>
+</head>
+<body>
+<center>
+    <div class="theme-designs">
+<button id="1" onclick="design1()">&hearts; Theme 1 &hearts;</button>
+<button id="2" onclick="design2()">&hearts; Theme 2 &hearts;</button>
+<button id="3" onclick="design3()">&hearts; Theme 3 &hearts;</button>
+<button id="4" onclick="design4()">&hearts; Theme 4 &hearts;</button>
+    </div>
+</center>
+        <div id="div-bg" class="container">
+                <form>
+                <h2>Welcome!</h2>
+                    <!--user glyphicon-->
+                   <div class="ring"><i class="fa fa-user fa-5x"></i></div>
+                    <div class="main">
+        <p>Name</p>
+        <input type="text" placeholder="Enter Name" id="u">
+        <p>Password</p>
+        <input type="text" placeholder="Enter Password" id="p">
+        <input type="submit" id="btn" value="Sign In">
+        <span><p>Not Registered yet? <a href="#">Register</a></p></span>
+    </form>
+    </div>
+    
+</body>
+</html>

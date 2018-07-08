@@ -1,0 +1,143 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #ed5934; 
+}
+
+.theme-designs
+{
+width: 100%;
+height: 30px;
+color: #000;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+button{
+    border: solid 2px #55524d;
+}
+
+button:nth-child(1){
+background:linear-gradient(to right, #fdedcc 50%, #ed5934 50%);
+width:50%;    
+}
+
+button:nth-child(2){
+    background:linear-gradient(to right,    #a3ffe9  50%, #4648d7 50%);
+    width:50%;    
+    }
+
+    button:nth-child(3){
+        background:linear-gradient(to right,  #b2f892 50%,#6683f9 50%);
+        width:50%;    
+        }
+
+        button:nth-child(4){
+            background:linear-gradient(to right, #f6f892 50%, #21b288
+            50%);
+            width:50%;    
+            }
+
+.container
+{
+    transform: translate(6%,20%);
+    background-color: #fdedcc;
+    display:block;
+    height: 400px;
+    width:300px;
+    border-radius: 5px;
+    box-shadow: #b84005 4px 3px 15px;
+    color: #353431;
+    font-size: 15px;
+    font-family:sans-serif;
+    font-weight: bold;
+   font-family: Montserrat;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.container:hover
+{
+    box-shadow:   #963403 4px 3px 20px;
+}
+
+.ring
+{
+    position: relative;
+    padding: 5px 2px;
+    left:32%;
+background:transparent;
+width:98px;
+border:solid 2px #605c56;
+border-radius: 50%;
+}
+
+i{
+    position: relative;
+    top: -2px;
+    left: 17%;
+}
+
+
+h2{
+    text-align: center;
+}
+
+p{
+    margin: 0;
+}
+
+span{
+    margin: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+input{
+       margin: 5px 0;
+       width: 100%;
+       height: 22px;
+       padding-bottom: 10px;
+       background: transparent;
+       border-top: none;
+       border-right: none;
+       border-left: none;
+       border-bottom:solid 2px #7c726e;
+       color:  #55524d
+;
+}
+
+
+::placeholder
+{
+font-size: 12px;
+}
+
+#btn
+{
+    color: #fff;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+font-size: 15px;
+padding: 3px;
+margin-top: 10px;
+    background-color: #ed5934 ;
+    box-shadow: #dfb0b0 4px 3px 15px;
+}
+
+#btn:hover
+{
+    box-shadow: #963403 2px 2px 10px;
+    background: #e6522e;
+}
+
+.main
+{
+    margin: 10px 0;
+}
+
